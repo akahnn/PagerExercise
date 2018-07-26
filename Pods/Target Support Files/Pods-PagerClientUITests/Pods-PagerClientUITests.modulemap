@@ -1,0 +1,6 @@
+framework module Pods_PagerClientUITests {
+  umbrella header "Pods-PagerClientUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

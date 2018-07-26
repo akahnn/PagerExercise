@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2861A8DA2108EDD200DDDEAB /* HTTPSAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2861A8D92108EDD200DDDEAB /* HTTPSAPIManager.m */; };
+		28690B2F2106CA4200A25A50 /* EmployeeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28690B2E2106CA4200A25A50 /* EmployeeListViewController.m */; };
+		28690B322106CA6600A25A50 /* EmployeeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28690B312106CA6600A25A50 /* EmployeeDetailsViewController.m */; };
+		28690B3B2106CFBD00A25A50 /* EmployeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28690B3A2106CFBD00A25A50 /* EmployeeTableViewCell.m */; };
+		28690B3F2106DABD00A25A50 /* SocketIOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28690B3E2106DABD00A25A50 /* SocketIOManager.m */; };
+		28ABFE542105360D003BB0BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFE532105360D003BB0BE /* AppDelegate.m */; };
+		28ABFE5A2105360D003BB0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ABFE582105360D003BB0BE /* Main.storyboard */; };
+		28ABFE5C2105360E003BB0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28ABFE5B2105360E003BB0BE /* Assets.xcassets */; };
+		28ABFE5F2105360E003BB0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ABFE5D2105360E003BB0BE /* LaunchScreen.storyboard */; };
+		28ABFE622105360E003BB0BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFE612105360E003BB0BE /* main.m */; };
+		28ABFE6C2105360E003BB0BE /* PagerClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFE6B2105360E003BB0BE /* PagerClientTests.m */; };
+		28ABFE772105360E003BB0BE /* PagerClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFE762105360E003BB0BE /* PagerClientUITests.m */; };
+		28ABFE9521064417003BB0BE /* Team.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFE9321064417003BB0BE /* Team.xcdatamodeld */; };
+		28ABFED921065155003BB0BE /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFED821065155003BB0BE /* Employee.m */; };
+		28ABFEDD2106527C003BB0BE /* EmployeeDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFEDC2106527C003BB0BE /* EmployeeDataStore.m */; };
+		28DBB3E52108FBED00521EC7 /* AddEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DBB3E42108FBED00521EC7 /* AddEmployeeViewController.m */; };
+		986A349A2E39C0A056A9A168 /* Pods_PagerClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B69270CACB4F68235001F9E /* Pods_PagerClient.framework */; };
+		BEF2E67AA00740EF1F9727D8 /* Pods_PagerClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A3B73EDFDABA1BFAE83D13 /* Pods_PagerClientUITests.framework */; };
+		CECA687AB4CA85B140274E1F /* Pods_PagerClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09349EF338087B994C5BD69A /* Pods_PagerClientTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28ABFE682105360E003BB0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28ABFE472105360C003BB0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28ABFE4E2105360D003BB0BE;
+			remoteInfo = PagerClient;
+		};
+		28ABFE732105360E003BB0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28ABFE472105360C003BB0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28ABFE4E2105360D003BB0BE;
+			remoteInfo = PagerClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09349EF338087B994C5BD69A /* Pods_PagerClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagerClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF974D0156102F98C64FE10 /* Pods-PagerClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PagerClientTests/Pods-PagerClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		2217E4CC1847DB2237127049 /* Pods-PagerClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PagerClient/Pods-PagerClient.debug.xcconfig"; sourceTree = "<group>"; };
+		2861A8D82108EDD200DDDEAB /* HTTPSAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPSAPIManager.h; sourceTree = "<group>"; };
+		2861A8D92108EDD200DDDEAB /* HTTPSAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPSAPIManager.m; sourceTree = "<group>"; };
+		28690B2D2106CA4200A25A50 /* EmployeeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeListViewController.h; sourceTree = "<group>"; };
+		28690B2E2106CA4200A25A50 /* EmployeeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeListViewController.m; sourceTree = "<group>"; };
+		28690B302106CA6600A25A50 /* EmployeeDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeDetailsViewController.h; sourceTree = "<group>"; };
+		28690B312106CA6600A25A50 /* EmployeeDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetailsViewController.m; sourceTree = "<group>"; };
+		28690B392106CFBD00A25A50 /* EmployeeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeTableViewCell.h; sourceTree = "<group>"; };
+		28690B3A2106CFBD00A25A50 /* EmployeeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeTableViewCell.m; sourceTree = "<group>"; };
+		28690B3D2106DABD00A25A50 /* SocketIOManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketIOManager.h; sourceTree = "<group>"; };
+		28690B3E2106DABD00A25A50 /* SocketIOManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketIOManager.m; sourceTree = "<group>"; };
+		28ABFE4F2105360D003BB0BE /* PagerClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28ABFE522105360D003BB0BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28ABFE532105360D003BB0BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28ABFE592105360D003BB0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28ABFE5B2105360E003BB0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28ABFE5E2105360E003BB0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28ABFE602105360E003BB0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28ABFE612105360E003BB0BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28ABFE672105360E003BB0BE /* PagerClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28ABFE6B2105360E003BB0BE /* PagerClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerClientTests.m; sourceTree = "<group>"; };
+		28ABFE6D2105360E003BB0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28ABFE722105360E003BB0BE /* PagerClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28ABFE762105360E003BB0BE /* PagerClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerClientUITests.m; sourceTree = "<group>"; };
+		28ABFE782105360E003BB0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28ABFE9421064417003BB0BE /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		28ABFED721065155003BB0BE /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		28ABFED821065155003BB0BE /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		28ABFEDB2106527C003BB0BE /* EmployeeDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeDataStore.h; sourceTree = "<group>"; };
+		28ABFEDC2106527C003BB0BE /* EmployeeDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeDataStore.m; sourceTree = "<group>"; };
+		28DBB3E32108FBED00521EC7 /* AddEmployeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddEmployeeViewController.h; sourceTree = "<group>"; };
+		28DBB3E42108FBED00521EC7 /* AddEmployeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddEmployeeViewController.m; sourceTree = "<group>"; };
+		6D12848EB4784351D6F5D808 /* Pods-PagerClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-PagerClient/Pods-PagerClient.release.xcconfig"; sourceTree = "<group>"; };
+		71A1E4C4A04ADCADB2D29075 /* Pods-PagerClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PagerClientTests/Pods-PagerClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95B346FE8B8CBBBDD2DBB6E8 /* Pods-PagerClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PagerClientUITests/Pods-PagerClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B69270CACB4F68235001F9E /* Pods_PagerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A3B73EDFDABA1BFAE83D13 /* Pods_PagerClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagerClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF87769D0F6A26778FB8AA9 /* Pods-PagerClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PagerClientUITests/Pods-PagerClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28ABFE4C2105360D003BB0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986A349A2E39C0A056A9A168 /* Pods_PagerClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28ABFE642105360E003BB0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA687AB4CA85B140274E1F /* Pods_PagerClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28ABFE6F2105360E003BB0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF2E67AA00740EF1F9727D8 /* Pods_PagerClientUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28690B3C2106D87900A25A50 /* EmployeeCell */ = {
+			isa = PBXGroup;
+			children = (
+				28690B392106CFBD00A25A50 /* EmployeeTableViewCell.h */,
+				28690B3A2106CFBD00A25A50 /* EmployeeTableViewCell.m */,
+			);
+			path = EmployeeCell;
+			sourceTree = "<group>";
+		};
+		28ABFE462105360C003BB0BE = {
+			isa = PBXGroup;
+			children = (
+				28ABFE512105360D003BB0BE /* PagerClient */,
+				28ABFE6A2105360E003BB0BE /* PagerClientTests */,
+				28ABFE752105360E003BB0BE /* PagerClientUITests */,
+				28ABFE502105360D003BB0BE /* Products */,
+				A1E9B86E7B362EF4F1B67E38 /* Pods */,
+				6D1B036D7500F283142F143F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28ABFE502105360D003BB0BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28ABFE4F2105360D003BB0BE /* PagerClient.app */,
+				28ABFE672105360E003BB0BE /* PagerClientTests.xctest */,
+				28ABFE722105360E003BB0BE /* PagerClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28ABFE512105360D003BB0BE /* PagerClient */ = {
+			isa = PBXGroup;
+			children = (
+				28ABFEDA210651D4003BB0BE /* Data Model */,
+				28DBB3E22108F79B00521EC7 /* API Managers */,
+				28690B3C2106D87900A25A50 /* EmployeeCell */,
+				28ABFE522105360D003BB0BE /* AppDelegate.h */,
+				28ABFE532105360D003BB0BE /* AppDelegate.m */,
+				28690B2D2106CA4200A25A50 /* EmployeeListViewController.h */,
+				28690B2E2106CA4200A25A50 /* EmployeeListViewController.m */,
+				28690B302106CA6600A25A50 /* EmployeeDetailsViewController.h */,
+				28690B312106CA6600A25A50 /* EmployeeDetailsViewController.m */,
+				28DBB3E32108FBED00521EC7 /* AddEmployeeViewController.h */,
+				28DBB3E42108FBED00521EC7 /* AddEmployeeViewController.m */,
+				28ABFE5B2105360E003BB0BE /* Assets.xcassets */,
+				28ABFE582105360D003BB0BE /* Main.storyboard */,
+				28ABFE5D2105360E003BB0BE /* LaunchScreen.storyboard */,
+				28ABFE602105360E003BB0BE /* Info.plist */,
+				28ABFE612105360E003BB0BE /* main.m */,
+			);
+			path = PagerClient;
+			sourceTree = "<group>";
+		};
+		28ABFE6A2105360E003BB0BE /* PagerClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				28ABFE6B2105360E003BB0BE /* PagerClientTests.m */,
+				28ABFE6D2105360E003BB0BE /* Info.plist */,
+			);
+			path = PagerClientTests;
+			sourceTree = "<group>";
+		};
+		28ABFE752105360E003BB0BE /* PagerClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28ABFE762105360E003BB0BE /* PagerClientUITests.m */,
+				28ABFE782105360E003BB0BE /* Info.plist */,
+			);
+			path = PagerClientUITests;
+			sourceTree = "<group>";
+		};
+		28ABFEDA210651D4003BB0BE /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				28ABFE9321064417003BB0BE /* Team.xcdatamodeld */,
+				28ABFED721065155003BB0BE /* Employee.h */,
+				28ABFED821065155003BB0BE /* Employee.m */,
+				28ABFEDB2106527C003BB0BE /* EmployeeDataStore.h */,
+				28ABFEDC2106527C003BB0BE /* EmployeeDataStore.m */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		28DBB3E22108F79B00521EC7 /* API Managers */ = {
+			isa = PBXGroup;
+			children = (
+				28690B3D2106DABD00A25A50 /* SocketIOManager.h */,
+				28690B3E2106DABD00A25A50 /* SocketIOManager.m */,
+				2861A8D82108EDD200DDDEAB /* HTTPSAPIManager.h */,
+				2861A8D92108EDD200DDDEAB /* HTTPSAPIManager.m */,
+			);
+			path = "API Managers";
+			sourceTree = "<group>";
+		};
+		6D1B036D7500F283142F143F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B69270CACB4F68235001F9E /* Pods_PagerClient.framework */,
+				09349EF338087B994C5BD69A /* Pods_PagerClientTests.framework */,
+				A3A3B73EDFDABA1BFAE83D13 /* Pods_PagerClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E9B86E7B362EF4F1B67E38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2217E4CC1847DB2237127049 /* Pods-PagerClient.debug.xcconfig */,
+				6D12848EB4784351D6F5D808 /* Pods-PagerClient.release.xcconfig */,
+				71A1E4C4A04ADCADB2D29075 /* Pods-PagerClientTests.debug.xcconfig */,
+				0AF974D0156102F98C64FE10 /* Pods-PagerClientTests.release.xcconfig */,
+				CAF87769D0F6A26778FB8AA9 /* Pods-PagerClientUITests.debug.xcconfig */,
+				95B346FE8B8CBBBDD2DBB6E8 /* Pods-PagerClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28ABFE4E2105360D003BB0BE /* PagerClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28ABFE7B2105360E003BB0BE /* Build configuration list for PBXNativeTarget "PagerClient" */;
+			buildPhases = (
+				487142117386A5D83025C95E /* [CP] Check Pods Manifest.lock */,
+				28ABFE4B2105360D003BB0BE /* Sources */,
+				28ABFE4C2105360D003BB0BE /* Frameworks */,
+				28ABFE4D2105360D003BB0BE /* Resources */,
+				E69E0FBD5D35A556CAF9A30F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagerClient;
+			productName = PagerClient;
+			productReference = 28ABFE4F2105360D003BB0BE /* PagerClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28ABFE662105360E003BB0BE /* PagerClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28ABFE7E2105360E003BB0BE /* Build configuration list for PBXNativeTarget "PagerClientTests" */;
+			buildPhases = (
+				D60430AAD795B4E434583E6A /* [CP] Check Pods Manifest.lock */,
+				28ABFE632105360E003BB0BE /* Sources */,
+				28ABFE642105360E003BB0BE /* Frameworks */,
+				28ABFE652105360E003BB0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28ABFE692105360E003BB0BE /* PBXTargetDependency */,
+			);
+			name = PagerClientTests;
+			productName = PagerClientTests;
+			productReference = 28ABFE672105360E003BB0BE /* PagerClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28ABFE712105360E003BB0BE /* PagerClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28ABFE812105360E003BB0BE /* Build configuration list for PBXNativeTarget "PagerClientUITests" */;
+			buildPhases = (
+				B94B84391B610C3C878C5F32 /* [CP] Check Pods Manifest.lock */,
+				28ABFE6E2105360E003BB0BE /* Sources */,
+				28ABFE6F2105360E003BB0BE /* Frameworks */,
+				28ABFE702105360E003BB0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28ABFE742105360E003BB0BE /* PBXTargetDependency */,
+			);
+			name = PagerClientUITests;
+			productName = PagerClientUITests;
+			productReference = 28ABFE722105360E003BB0BE /* PagerClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28ABFE472105360C003BB0BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Sifted;
+				TargetAttributes = {
+					28ABFE4E2105360D003BB0BE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					28ABFE662105360E003BB0BE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 28ABFE4E2105360D003BB0BE;
+					};
+					28ABFE712105360E003BB0BE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 28ABFE4E2105360D003BB0BE;
+					};
+				};
+			};
+			buildConfigurationList = 28ABFE4A2105360C003BB0BE /* Build configuration list for PBXProject "PagerClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28ABFE462105360C003BB0BE;
+			productRefGroup = 28ABFE502105360D003BB0BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28ABFE4E2105360D003BB0BE /* PagerClient */,
+				28ABFE662105360E003BB0BE /* PagerClientTests */,
+				28ABFE712105360E003BB0BE /* PagerClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28ABFE4D2105360D003BB0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABFE5F2105360E003BB0BE /* LaunchScreen.storyboard in Resources */,
+				28ABFE5C2105360E003BB0BE /* Assets.xcassets in Resources */,
+				28ABFE5A2105360D003BB0BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28ABFE652105360E003BB0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28ABFE702105360E003BB0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		487142117386A5D83025C95E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PagerClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94B84391B610C3C878C5F32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PagerClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60430AAD795B4E434583E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PagerClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69E0FBD5D35A556CAF9A30F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PagerClient/Pods-PagerClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/XLForm/XLForm.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLForm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PagerClient/Pods-PagerClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28ABFE4B2105360D003BB0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABFE622105360E003BB0BE /* main.m in Sources */,
+				28690B3B2106CFBD00A25A50 /* EmployeeTableViewCell.m in Sources */,
+				28ABFE542105360D003BB0BE /* AppDelegate.m in Sources */,
+				28690B2F2106CA4200A25A50 /* EmployeeListViewController.m in Sources */,
+				2861A8DA2108EDD200DDDEAB /* HTTPSAPIManager.m in Sources */,
+				28ABFE9521064417003BB0BE /* Team.xcdatamodeld in Sources */,
+				28690B3F2106DABD00A25A50 /* SocketIOManager.m in Sources */,
+				28DBB3E52108FBED00521EC7 /* AddEmployeeViewController.m in Sources */,
+				28ABFEDD2106527C003BB0BE /* EmployeeDataStore.m in Sources */,
+				28ABFED921065155003BB0BE /* Employee.m in Sources */,
+				28690B322106CA6600A25A50 /* EmployeeDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28ABFE632105360E003BB0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABFE6C2105360E003BB0BE /* PagerClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28ABFE6E2105360E003BB0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABFE772105360E003BB0BE /* PagerClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28ABFE692105360E003BB0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28ABFE4E2105360D003BB0BE /* PagerClient */;
+			targetProxy = 28ABFE682105360E003BB0BE /* PBXContainerItemProxy */;
+		};
+		28ABFE742105360E003BB0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28ABFE4E2105360D003BB0BE /* PagerClient */;
+			targetProxy = 28ABFE732105360E003BB0BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28ABFE582105360D003BB0BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28ABFE592105360D003BB0BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28ABFE5D2105360E003BB0BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28ABFE5E2105360E003BB0BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28ABFE792105360E003BB0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28ABFE7A2105360E003BB0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28ABFE7C2105360E003BB0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2217E4CC1847DB2237127049 /* Pods-PagerClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 793JUMAQ63;
+				INFOPLIST_FILE = PagerClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kahn.PagerClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28ABFE7D2105360E003BB0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D12848EB4784351D6F5D808 /* Pods-PagerClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 793JUMAQ63;
+				INFOPLIST_FILE = PagerClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kahn.PagerClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28ABFE7F2105360E003BB0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A1E4C4A04ADCADB2D29075 /* Pods-PagerClientTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 793JUMAQ63;
+				INFOPLIST_FILE = PagerClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kahn.PagerClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagerClient.app/PagerClient";
+			};
+			name = Debug;
+		};
+		28ABFE802105360E003BB0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF974D0156102F98C64FE10 /* Pods-PagerClientTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 793JUMAQ63;
+				INFOPLIST_FILE = PagerClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kahn.PagerClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagerClient.app/PagerClient";
+			};
+			name = Release;
+		};
+		28ABFE822105360E003BB0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF87769D0F6A26778FB8AA9 /* Pods-PagerClientUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 793JUMAQ63;
+				INFOPLIST_FILE = PagerClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kahn.PagerClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PagerClient;
+			};
+			name = Debug;
+		};
+		28ABFE832105360E003BB0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B346FE8B8CBBBDD2DBB6E8 /* Pods-PagerClientUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 793JUMAQ63;
+				INFOPLIST_FILE = PagerClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kahn.PagerClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PagerClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28ABFE4A2105360C003BB0BE /* Build configuration list for PBXProject "PagerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28ABFE792105360E003BB0BE /* Debug */,
+				28ABFE7A2105360E003BB0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28ABFE7B2105360E003BB0BE /* Build configuration list for PBXNativeTarget "PagerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28ABFE7C2105360E003BB0BE /* Debug */,
+				28ABFE7D2105360E003BB0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28ABFE7E2105360E003BB0BE /* Build configuration list for PBXNativeTarget "PagerClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28ABFE7F2105360E003BB0BE /* Debug */,
+				28ABFE802105360E003BB0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28ABFE812105360E003BB0BE /* Build configuration list for PBXNativeTarget "PagerClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28ABFE822105360E003BB0BE /* Debug */,
+				28ABFE832105360E003BB0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28ABFE9321064417003BB0BE /* Team.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28ABFE9421064417003BB0BE /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 28ABFE9421064417003BB0BE /* DataModel.xcdatamodel */;
+			path = Team.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28ABFE472105360C003BB0BE /* Project object */;
+}
