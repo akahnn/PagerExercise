@@ -22,6 +22,7 @@
 		28ABFE9521064417003BB0BE /* Team.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFE9321064417003BB0BE /* Team.xcdatamodeld */; };
 		28ABFED921065155003BB0BE /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFED821065155003BB0BE /* Employee.m */; };
 		28ABFEDD2106527C003BB0BE /* EmployeeDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABFEDC2106527C003BB0BE /* EmployeeDataStore.m */; };
+		28B6081F2111F40F00548CA0 /* Pager.md in Resources */ = {isa = PBXBuildFile; fileRef = 28B6081E2111F40F00548CA0 /* Pager.md */; };
 		28DBB3E52108FBED00521EC7 /* AddEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DBB3E42108FBED00521EC7 /* AddEmployeeViewController.m */; };
 		986A349A2E39C0A056A9A168 /* Pods_PagerClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B69270CACB4F68235001F9E /* Pods_PagerClient.framework */; };
 		BEF2E67AA00740EF1F9727D8 /* Pods_PagerClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A3B73EDFDABA1BFAE83D13 /* Pods_PagerClientUITests.framework */; };
@@ -78,6 +79,7 @@
 		28ABFED821065155003BB0BE /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		28ABFEDB2106527C003BB0BE /* EmployeeDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeDataStore.h; sourceTree = "<group>"; };
 		28ABFEDC2106527C003BB0BE /* EmployeeDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeDataStore.m; sourceTree = "<group>"; };
+		28B6081E2111F40F00548CA0 /* Pager.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Pager.md; sourceTree = "<group>"; };
 		28DBB3E32108FBED00521EC7 /* AddEmployeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddEmployeeViewController.h; sourceTree = "<group>"; };
 		28DBB3E42108FBED00521EC7 /* AddEmployeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddEmployeeViewController.m; sourceTree = "<group>"; };
 		6D12848EB4784351D6F5D808 /* Pods-PagerClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-PagerClient/Pods-PagerClient.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		28ABFE462105360C003BB0BE = {
 			isa = PBXGroup;
 			children = (
+				28B6081E2111F40F00548CA0 /* Pager.md */,
 				28ABFE512105360D003BB0BE /* PagerClient */,
 				28ABFE6A2105360E003BB0BE /* PagerClientTests */,
 				28ABFE752105360E003BB0BE /* PagerClientUITests */,
@@ -343,6 +346,7 @@
 			files = (
 				28ABFE5F2105360E003BB0BE /* LaunchScreen.storyboard in Resources */,
 				28ABFE5C2105360E003BB0BE /* Assets.xcassets in Resources */,
+				28B6081F2111F40F00548CA0 /* Pager.md in Resources */,
 				28ABFE5A2105360D003BB0BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
